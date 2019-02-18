@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+}
+
+header {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin: 1rem;
+}
+
+p {
+  padding: 0.4rem;
+  margin: 1rem;
+}
+
+main {
+  text-align: center;
+}
+
+.cell {
+  border: 3px solid black;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 800px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.reset {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
